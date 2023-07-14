@@ -1,0 +1,266 @@
+/* css */
+
+
+html {
+scroll-behavior: smooth;
+}
+
+a {
+text-decoration: none;
+color: lightgrey;
+background-color: none;
+} 
+
+li.nav-item {
+    font-size: 1.1em;
+}
+
+
+img.logo{
+width: 10vw;
+}
+
+.icon_portfolio{
+text-align: center;
+}
+
+/* utility */
+
+._debug{
+background-color: coral;
+border: 1px solid black;
+min-height: 80px;
+}
+
+._debugobj{
+background-color:cadetblue;
+border: 1px solid black;
+}
+
+/* nav */
+
+nav .title{
+color: white;
+font-weight: bolder;
+}
+
+nav,
+footer{
+background-color: #2C3E50;
+}
+
+/* .jumbotron */
+
+.jumbotron{
+background-color: lightslategrey;
+position: relative;
+}
+
+.jumbotron img{
+border-radius: 50%;
+}
+
+.line{
+background-color: white;
+height: 5px;
+width: 10vw;
+border-radius: 2px;
+}
+
+.jumbotron i,
+main .about-us i{
+font-size: 3rem;
+color: white;
+}
+
+.jumbotron h1{
+color: white;
+font-size: 1.5rem;
+font-weight: bolder;
+}
+
+/* main */
+
+main .line{
+background-color: #2C3E50;
+}
+
+main ._portfolio i,
+main .contact i{
+
+font-size: 3rem;
+}
+
+main ._portfolio h2,
+main .contact h2{
+font-size: 2rem;
+color: #2C3E50;
+font-weight: bold;
+}
+
+main ._portfolio ._add{
+position: relative;
+}
+
+main ._portfolio ._add:hover p{
+display: block;
+}
+
+main ._portfolio ._add:hover img{
+filter: brightness(50%);
+}
+
+main ._portfolio ._add p{
+position: absolute;
+top: 50%;
+cursor: pointer;
+left: 50%;
+transform: translate(-50%, -50%);
+color: lightgrey;
+font-size: 10rem;
+display: none;
+}
+
+main ._portfolio img{
+cursor: pointer;
+}
+
+.about-us{
+background-color: lightslategrey;
+margin-top: 50px;
+}
+
+main .about-us h2{
+color: white;
+font-weight: bold;
+margin-right: 20px;
+}
+
+main .about-us .line{
+background-color: white;
+}
+
+main .box_text{
+
+margin: 0 auto;
+}
+
+main .about-us button i{
+font-size: 0.9rem;
+padding-right: 3px;
+}
+
+main .about-us button{
+background-color: transparent;
+border: 1px solid white;
+border-radius: 3px;
+padding: 2px 7px;
+color: white;
+}
+
+main .contact{
+padding-top: 50px;
+}
+
+main .my_form{
+width: 70%;
+margin: 0 auto;
+}
+
+main .my_form .border_form{
+border: 0;
+border-radius: 0;
+border-bottom: 1px solid lightgrey;
+}
+
+main .location{
+background-color: #3A546D;
+margin-top: 40px;
+}
+
+main .location p{
+font-size: 1.1rem;
+}
+
+main .location i{
+display: inline-block;
+height: 50px;
+width: 50px;
+line-height: 40px;
+border: 1px solid white;
+border-radius: 50%;
+}
+
+
+/* Form */
+form {
+width: 100px;
+border-radius: 17px;
+padding: 20px;
+box-shadow: 0 10px 20px;
+}
+
+/* Input */
+.inputfield {
+font-size: 1.1em;
+font-weight: bold;
+display: block;
+height: 44px;
+width: 100%;
+outline: none;
+border-radius: 10px;
+transition: all 1s;
+margin: 1em 0 2em 0;
+padding: 2em;
+}
+
+/*
+input[type="text"]:focus, input[type="email"]:focus {
+border: 3px solid white;
+} */
+
+/* Button */
+.button {
+border: none;
+height: 50px;
+width: 100%;
+border-radius: 0.3em;
+font-size: 25px;
+font-weight: 600;
+/* Colors */
+color: black;
+}
+
+.button:hover {
+transform: scale(1.03);
+cursor: pointer;
+background-color: #f2f2f2;
+color: #212121;
+}
+
+div#donate-button {
+text-align: center;
+}
+
+
+img#donate-button {
+width: 200px;
+}
+
+.supporto{
+    margin-top: 20px;
+}
+
+img#donate-button {
+    width: 200px;
+    margin-top: 30px;
+}
+
+.social-link{
+    width: 150px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+/**/
+

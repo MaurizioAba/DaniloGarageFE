@@ -1,0 +1,29 @@
+.item{
+    margin: 3px;
+  }
+  .container .item img{
+    display: block;
+    width: 30%;
+    height: auto;
+    float: left;
+    margin: 10px 50px;
+  }
+
+  p.stile_font{
+    font-size: 1.3rem !important;
+  }
+
+  .box-immagini-auto, #contact{
+    margin-top: 50px;
+  }
+
+  .richiesta{
+    margin-bottom: 20px;
+    font-size: medium;
+  }
+
+  .card.image-details {
+    float: left;
+    margin-left: 40px;
+    margin-top: 25px;
+}

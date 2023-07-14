@@ -1,0 +1,10 @@
+@media screen and (min-width: 770px){
+    .jumbotron p{
+        font-size: 2rem;
+    }
+
+    main .box_text p{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
